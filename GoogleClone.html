@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        header {
+            width:100%;
+            height: 10vh;
+        }
+        nav {
+            padding-top: 15px;
+            margin-right: 50px;
+            float: right;
+        }
+        header nav ul li {
+            display:inline-block;
+            margin-left: 25px;
+        }
+
+        .container1 {
+            height: 60vh;
+        }
+        .logo {
+            text-align: center;
+            width: 100%;
+            margin-top: 100px;
+        }
+        .searchbar {
+            text-align: center;
+            width: 100%;
+            
+        }
+        .searchbar form input {
+            width:600px;
+            height:45px;
+            border-width: 1px;
+            border-radius: 15px;
+        }
+        .container2 {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .container2 div {
+            display: inline-block;
+            margin: 20px;
+        }
+        .container2 div input {
+            width:150px;
+            height: 25px;
+        }
+        footer div{
+            display: inline-block;
+            height: 10vh;
+        }
+        footer div ul li {
+            display: inline-block;
+            margin-left: 25px;
+            margin-top: 100px;
+        }
+        .div1{
+            float: left;
+            margin-left: 50px;
+        }
+        .div2{
+            float: right;
+            margin-right: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+      <nav>
+        <ul>
+            <li>Gmail</li>
+            <li>Imagenes</li>
+            <li class="cuadritos"><img src="./Assets/Cuadritos.PNG" alt="menu"></li>
+            <li><img src="./Assets/Picture.PNG" alt="profilepic"></li>
+        </ul>
+    </nav>  
+    </header>
+    <div class="container1">
+        <section class="logo"><div><img src="./Assets/Google logo.PNG" alt="google logo"></div></section>
+        <section class="searchbar"><div><form action="https://www.google.com/"><input type="text"><br></form></div></section>
+        <section class="container2">
+        <div><form action="https://www.google.com/"><input type="submit" value="Buscar con Google"></form></div>
+        <div><form action="https://www.google.com/"><input type="submit" value="I'm Feeling Lucky"></form></div> 
+        </section>
+    </div>
+    <footer>
+        <div class="div1">
+            <ul>
+                <li>Publicidad</li>
+                <li>Negocios</li>
+                <li>Acerca de</li>
+                <li>Como funciona la Busqueda</li>
+            </ul>
+        </div>
+        <div class="div2">
+            <ul>
+                <li>Privacidad</li>
+                <li>Condiciones</li>
+                <li>Preferencias</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
